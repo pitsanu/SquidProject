@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E25C041118DEC9DC00C3B2ED /* TBMLocationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E25C041018DEC9DC00C3B2ED /* TBMLocationItem.m */; };
+		E25C041418DECD0F00C3B2ED /* TBMLocationItemRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = E25C041318DECD0F00C3B2ED /* TBMLocationItemRepository.m */; };
 		E2897A8D18D5E7C5002D7667 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2897A8C18D5E7C5002D7667 /* Foundation.framework */; };
 		E2897A8F18D5E7C5002D7667 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2897A8E18D5E7C5002D7667 /* CoreGraphics.framework */; };
 		E2897A9118D5E7C5002D7667 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2897A9018D5E7C5002D7667 /* UIKit.framework */; };
@@ -19,6 +21,9 @@
 		E2897AA818D5E7C5002D7667 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2897A9018D5E7C5002D7667 /* UIKit.framework */; };
 		E2897AB018D5E7C5002D7667 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2897AAE18D5E7C5002D7667 /* InfoPlist.strings */; };
 		E2897AB218D5E7C5002D7667 /* SquidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2897AB118D5E7C5002D7667 /* SquidTests.m */; };
+		E2897ABD18D5EC06002D7667 /* TBMRadarView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2897ABC18D5EC06002D7667 /* TBMRadarView.m */; };
+		E2897AC018D5ECB0002D7667 /* TBMRadarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2897ABF18D5ECB0002D7667 /* TBMRadarViewController.m */; };
+		E2C5A10418DEF2CE00B54568 /* background_linen.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C5A10318DEF2CE00B54568 /* background_linen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E25C040F18DEC9DC00C3B2ED /* TBMLocationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBMLocationItem.h; sourceTree = "<group>"; };
+		E25C041018DEC9DC00C3B2ED /* TBMLocationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBMLocationItem.m; sourceTree = "<group>"; };
+		E25C041218DECD0F00C3B2ED /* TBMLocationItemRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBMLocationItemRepository.h; sourceTree = "<group>"; };
+		E25C041318DECD0F00C3B2ED /* TBMLocationItemRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBMLocationItemRepository.m; sourceTree = "<group>"; };
 		E2897A8918D5E7C5002D7667 /* Squid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Squid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2897A8C18D5E7C5002D7667 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E2897A8E18D5E7C5002D7667 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +57,11 @@
 		E2897AAD18D5E7C5002D7667 /* SquidTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SquidTests-Info.plist"; sourceTree = "<group>"; };
 		E2897AAF18D5E7C5002D7667 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E2897AB118D5E7C5002D7667 /* SquidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquidTests.m; sourceTree = "<group>"; };
+		E2897ABB18D5EC06002D7667 /* TBMRadarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBMRadarView.h; sourceTree = "<group>"; };
+		E2897ABC18D5EC06002D7667 /* TBMRadarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBMRadarView.m; sourceTree = "<group>"; };
+		E2897ABE18D5ECB0002D7667 /* TBMRadarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBMRadarViewController.h; sourceTree = "<group>"; };
+		E2897ABF18D5ECB0002D7667 /* TBMRadarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBMRadarViewController.m; sourceTree = "<group>"; };
+		E2C5A10318DEF2CE00B54568 /* background_linen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_linen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +88,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E25C040D18DEC99600C3B2ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E25C040F18DEC9DC00C3B2ED /* TBMLocationItem.h */,
+				E25C041018DEC9DC00C3B2ED /* TBMLocationItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E25C040E18DEC99F00C3B2ED /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				E25C041218DECD0F00C3B2ED /* TBMLocationItemRepository.h */,
+				E25C041318DECD0F00C3B2ED /* TBMLocationItemRepository.m */,
+			);
+			name = Repository;
+			sourceTree = "<group>";
+		};
 		E2897A8018D5E7C4002D7667 = {
 			isa = PBXGroup;
 			children = (
@@ -107,10 +139,16 @@
 		E2897A9218D5E7C5002D7667 /* Squid */ = {
 			isa = PBXGroup;
 			children = (
+				E25C040E18DEC99F00C3B2ED /* Repository */,
+				E25C040D18DEC99600C3B2ED /* Model */,
 				E2897A9B18D5E7C5002D7667 /* TBMAppDelegate.h */,
 				E2897A9C18D5E7C5002D7667 /* TBMAppDelegate.m */,
 				E2897A9E18D5E7C5002D7667 /* Images.xcassets */,
 				E2897A9318D5E7C5002D7667 /* Supporting Files */,
+				E2897ABB18D5EC06002D7667 /* TBMRadarView.h */,
+				E2897ABC18D5EC06002D7667 /* TBMRadarView.m */,
+				E2897ABE18D5ECB0002D7667 /* TBMRadarViewController.h */,
+				E2897ABF18D5ECB0002D7667 /* TBMRadarViewController.m */,
 			);
 			path = Squid;
 			sourceTree = "<group>";
@@ -118,6 +156,7 @@
 		E2897A9318D5E7C5002D7667 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E2C5A10318DEF2CE00B54568 /* background_linen.png */,
 				E2897A9418D5E7C5002D7667 /* Squid-Info.plist */,
 				E2897A9518D5E7C5002D7667 /* InfoPlist.strings */,
 				E2897A9818D5E7C5002D7667 /* main.m */,
@@ -220,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C5A10418DEF2CE00B54568 /* background_linen.png in Resources */,
 				E2897A9718D5E7C5002D7667 /* InfoPlist.strings in Resources */,
 				E2897A9F18D5E7C5002D7667 /* Images.xcassets in Resources */,
 			);
@@ -240,8 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2897ABD18D5EC06002D7667 /* TBMRadarView.m in Sources */,
+				E25C041418DECD0F00C3B2ED /* TBMLocationItemRepository.m in Sources */,
+				E25C041118DEC9DC00C3B2ED /* TBMLocationItem.m in Sources */,
 				E2897A9D18D5E7C5002D7667 /* TBMAppDelegate.m in Sources */,
 				E2897A9918D5E7C5002D7667 /* main.m in Sources */,
+				E2897AC018D5ECB0002D7667 /* TBMRadarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +486,7 @@
 				E2897AB718D5E7C5002D7667 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2897AB818D5E7C5002D7667 /* Build configuration list for PBXNativeTarget "SquidTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +495,7 @@
 				E2897ABA18D5E7C5002D7667 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

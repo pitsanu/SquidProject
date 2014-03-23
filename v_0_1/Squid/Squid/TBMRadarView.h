@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TBMLocationItem.h"
 
 @interface TBMRadarView : UIView
+
+@property (strong, nonatomic) NSArray *locations;
+@property (strong, nonatomic) TBMLocationItem *currentLocation;
+@property (strong, nonatomic) UIColor *circleColor;
+@property (nonatomic) double heading;
 
 @end

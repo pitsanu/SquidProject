@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface TBMRadarViewController : NSObject
+@interface TBMRadarViewController : UIViewController
+                                    <CLLocationManagerDelegate>
 
 @end

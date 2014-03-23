@@ -10,4 +10,6 @@
 
 @interface TBMLocationItemRepository : NSObject
 
+-(NSArray *)transportations;
+
 @end
